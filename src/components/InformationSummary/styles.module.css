@@ -1,0 +1,57 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	font-size: 20px;
+}
+
+.header {
+	text-align: center;
+}
+.timezone {
+	font-size: 0.8em;
+	font-weight: bold;
+}
+.timezone span {
+	border: 1px solid var(--principal-color);
+	padding: 0.2rem;
+	box-shadow: 1px 1px 5px -2px black;
+	border-radius: 0.2rem;
+	color: var(--secondary-color);
+}
+
+.principalInfoContainer {
+	font-weight: bold;
+}
+.date {
+	font-size: 0.8em;
+	color: var(--secondary-color);
+	font-weight: 100;
+}
+.tempInfoContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5em;
+}
+.weather {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.secondaryInfoContainer {
+	display: flex;
+	gap: 1rem;
+	font-size: 0.8em;
+	justify-content: center;
+	color: var(--secondary-color);
+	font-weight: 100;
+}
+.humidity span {
+	font-weight: bold;
+	color: var(--principal-color);
+}
+.windSpeed span {
+	color: var(--principal-color);
+	font-weight: bold;
+}
